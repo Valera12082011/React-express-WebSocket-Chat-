@@ -1,0 +1,19 @@
+.NotFound {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 18%;
+
+
+}
+
+.NotFound img {
+    width: 10%;
+}
+
+
+.NotFound p {
+    margin-top: 20px;
+    font-size: 22px;
+
+}

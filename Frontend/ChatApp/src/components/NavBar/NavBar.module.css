@@ -1,0 +1,66 @@
+.NavBar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0px 0px 12px 12px;
+    background-color: gray;
+    padding: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.RoutersItemsList {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.RoutersItem {
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    margin: 10px 0px; /* Добавить отступы, если необходимо */
+    margin-left: 22px;
+    font-size: 20px;
+}
+
+.Icon {
+    margin-left: 5px;
+}
+
+.RoutersItem:hover {
+    transition: all .45s ease-in-out;
+    color: antiquewhite;
+    cursor: default;
+}
+
+.RoutersItem:not(:hover) {
+    transition: all .45s ease-in-out;
+    color: white;
+    cursor: default;
+}
+
+.Auth {
+    position: absolute;
+    left: 90%;
+}
+
+.AuthIconLogin , .AuthIconReg {
+    padding: 5px;
+    border: none;
+    border-radius: 5%;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.AuthIconLogin:hover , .AuthIconReg:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.AuthIconLogin:not(:hover) , .AuthIconReg:not(:hover) {
+    transition: all .2s ease-in-out;
+    transform: scale(1);
+}

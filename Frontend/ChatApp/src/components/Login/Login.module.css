@@ -1,0 +1,33 @@
+.Registration {
+    position: relative;
+    text-align: center;
+    margin: 50px auto;
+    padding: 12px;
+    background-color: gray;
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+}
+
+.FormElement {
+    margin-top: 20px;
+}
+
+.SubMit{
+    color: white;
+    background-color: green;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.FormElement input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+}

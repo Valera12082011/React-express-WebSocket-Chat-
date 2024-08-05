@@ -1,0 +1,70 @@
+/* ChaList.module.css */
+
+/* Контейнер для всіх повідомлень */
+.AllMessages {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 20px;
+}
+
+/* Стиль для повідомлення, щоб текст був зручний для читання */
+.AllMessages p {
+    margin: 5px 0;
+}
+
+/* Кнопка для лайків */
+.AllMessages button {
+    background-color: #c2c2c2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+/* Кнопка для лайків при натисканні */
+.AllMessages button:hover {
+    background-color: #e1e1e1;
+}
+
+/* Стиль для повідомлення "Not Found" */
+.NotFound {
+    color: #888;
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Поле вводу повідомлень */
+.Input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Кнопка відправлення повідомлень */
+.Send {
+    background-color: #a8a8a8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Кнопка відправлення повідомлень при натисканні */
+.Send:hover {
+    background-color: #bebebe;
+}
